@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejemploPoligonos", "ejemploPoligonos.csproj", "{5D87E3D7-377F-4433-9F62-0EA498996E6C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejemploPoligonos", "EjemploPoligonos\ejemploPoligonos.csproj", "{5D87E3D7-377F-4433-9F62-0EA498996E6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploADO", "EjemploADO\EjemploADO.csproj", "{2B151048-F421-4D81-9F34-C3EA04FD0ACE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{5D87E3D7-377F-4433-9F62-0EA498996E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D87E3D7-377F-4433-9F62-0EA498996E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D87E3D7-377F-4433-9F62-0EA498996E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B151048-F421-4D81-9F34-C3EA04FD0ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B151048-F421-4D81-9F34-C3EA04FD0ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B151048-F421-4D81-9F34-C3EA04FD0ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B151048-F421-4D81-9F34-C3EA04FD0ACE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CF5560A-0CF2-4B2D-91C4-90E195678EA5}
 	EndGlobalSection
 EndGlobal
